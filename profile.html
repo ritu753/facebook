@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70b6cd5cc4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="left-sidebar">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="right-sidebar">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="profile-pic online"  onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+
+        </div>
+        <!---------------settings menu----------->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="pic">
+                    <img src="images/profile-pic.png">
+                    <div class="detail">
+                        <h3>John Nicholsan</h3>
+                        <a href="#">see your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="pic">
+                    <img src="images/feedback.png">
+                    <div class="detail">
+                        <h3>give feedback</h3>
+                        <a href="#">Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">settings & Privacy<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Helps & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="images/logout.png" width="10px"></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!----------profile page------>
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-image">
+                <div>
+                <h3>Jack Nicholsan</h3>
+                <p>120 friends - 20mutul</p>
+                <img src="images/member-1.png">
+                <img src="images/member-2.png">
+                <img src="images/member-3.png">
+                <img src="images/member-4.png">
+                </div>
+            </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png">Friend</button>
+                <button type="button"><img src="images/message.png">Message</button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+    </div>
+    <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-txt">Believe in yourself and can do unbeliveve things.
+                    <img src="images/feeling.png">
+                </p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-job.png"> Director at 99media Ltd</li>
+                    <li><img src="images/profile-study.png">studies at Amity University</li>
+                    <li><img src="images/profile-study.png">Went to DPS Delhi</li>
+                    <li><img src="images/profile-home.png">Lives in Bangalore,India</li>
+                    <li><img src="images/profile-location.png">From Banglore , India</li>
+                </ul>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                <h3>Photos</h3>
+                <a href="#">ALL Photos</a>
+            </div>
+                <div class="photo-box">
+                    <div><img src="images/photo1.png"></div>
+                    <div><img src="images/photo2.png"></div>
+                    <div><img src="images/photo3.png"></div>
+                    <div><img src="images/photo4.png"></div>
+                    <div><img src="images/photo5.png"></div>
+                    <div><img src="images/photo6.png"></div>
+                    
+                </div>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                <h3>Friends</h3>
+                <a href="#">ALL Friends</a>
+            </div>
+            <p>120 (10 mutual)</p>
+                <div class="friends-box">
+                    <div><img src="images/member-1.png"><p>Ritu k</p></div>
+                    <div><img src="images/member-2.png"><p>Mukul</p></div>
+                    <div><img src="images/member-3.png"><p>Garima y</p></div>
+                    <div><img src="images/member-4.png"><p>Smriti s</p></div>
+                    <div><img src="images/member-5.png"><p>Divyam s</p></div>
+                    <div><img src="images/member-6.png"><p>Sajid s</p></div>
+                    <div><img src="images/member-7.png"><p>Mukul k</p></div>
+                    <div><img src="images/member-8.png"><p>Rony y</p></div>
+                    <div><img src="images/member-9.png"><p>akanksha c</p></div>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="post-col">
+            <div class="info">
+                <div class="post-row">
+                    <div class="pic">
+                        <img src="images/profile-pic.png">
+                        <div class="detail">
+                            <h3>John Nicholsan</h3>
+                            <p>Public <i class="fa fa-caret-down"></i></p>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <div class="mind">
+                    <textarea rows="3" placeholder="What's on your mind john?"></textarea>
+                </div>
+                <div class="video-info">
+                    <a href="#"><img src="images/live-video.png">Live Video</a>
+                    <a href="#"><img src="images/photo.png">Photo/Video</a>
+                    <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                </div>
+            </div>
+            <div class="post">
+                <div class="pic">
+                    <img src="images/profile-pic.png">
+                    <div class="detail">
+                        <h3>John Nicholsan</h3>
+                        <span>june 24 2021,13:40 pm</span>
+                    </div>
+                </div>
+                <div class="passage">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla vitae eos, quidem autem debitis
+                        delectus incidunt cum enim totam iure.</p>
+                </div>
+                <div class="feed-image">
+                    <img src="images/feed-image-1.png">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="pic">
+                    <img src="images/profile-pic.png">
+                    <div class="detail">
+                        <h3>John Nicholsan</h3>
+                        <span>may 24 2021,15:40 pm</span>
+                    </div>
+                </div>
+                <div class="passage">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla vitae eos, quidem autem debitis
+                        delectus incidunt cum enim totam iure.</p>
+                </div>
+                <div class="feed-image">
+                    <img src="images/feed-image-2.png">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">230</div>
+                        <div><img src="images/comments.png">40</div>
+                        <div><img src="images/share.png">10</div>
+                    </div>
+                    <div class="profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="pic">
+                    <img src="images/profile-pic.png">
+                    <div class="detail">
+                        <h3>John Nicholsan</h3>
+                        <span>jan 24 2020,17:40 pm</span>
+                    </div>
+                </div>
+                <div class="passage">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla vitae eos, quidem autem debitis
+                        delectus incidunt cum enim totam iure.</p>
+                </div>
+                <div class="feed-image">
+                    <img src="images/feed-image-3.png">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">630</div>
+                        <div><img src="images/comments.png">90</div>
+                        <div><img src="images/share.png">70</div>
+                    </div>
+                    <div class="profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="pic">
+                    <img src="images/profile-pic.png">
+                    <div class="detail">
+                        <h3>John Nicholsan</h3>
+                        <span>may 24 2021,15:40 pm</span>
+                    </div>
+                </div>
+                <div class="passage">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla vitae eos, quidem autem debitis
+                        delectus incidunt cum enim totam iure.</p>
+                </div>
+                <div class="feed-image">
+                    <img src="images/feed-image-4.png">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">230</div>
+                        <div><img src="images/comments.png">40</div>
+                        <div><img src="images/share.png">10</div>
+                    </div>
+                    <div class="profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="pic">
+                    <img src="images/profile-pic.png">
+                    <div class="detail">
+                        <h3>John Nicholsan</h3>
+                        <span>may 24 2021,15:40 pm</span>
+                    </div>
+                </div>
+                <div class="passage">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla vitae eos, quidem autem debitis
+                        delectus incidunt cum enim totam iure.</p>
+                </div>
+                <div class="feed-image">
+                    <img src="images/feed-image-5.png">
+                </div>
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">230</div>
+                        <div><img src="images/comments.png">40</div>
+                        <div><img src="images/share.png">10</div>
+                    </div>
+                    <div class="profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+    <div class="footer">
+        <p>Copyright 2021- facebook</p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
